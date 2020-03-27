@@ -1,5 +1,9 @@
 # optee-os_build
-this repository will help you build optee_os in china.
+this repository will help you build optee_os with ubuntu18.04 in china.
+
+# set env
+[https://optee.readthedocs.io/en/latest/building/prerequisites.html](https://optee.readthedocs.io/en/latest/building/prerequisites.html)
+
 # build 
 ## build toolchains
 ```bash

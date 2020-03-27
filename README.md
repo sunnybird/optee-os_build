@@ -6,10 +6,12 @@ this repository will help you build optee_os with ubuntu18.04 in china.
 
 # build 
 ## build toolchains
+
 ```bash
 cd build
 make -f toolchain.mk toolchains
 ```
+another way see to [https://optee.readthedocs.io/en/latest/building/toolchains.html](https://optee.readthedocs.io/en/latest/building/toolchains.html)
 
 ## build optee-os
 ```bash

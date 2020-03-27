@@ -10,7 +10,7 @@ make -f toolchain.mk toolchains
 ## build optee-os
 ```bash
 cd build
-cd builmake -f qemu.mk alld
+cd builmake -f qemu.mk all
 ```
 
 ## run optee-os on qemu

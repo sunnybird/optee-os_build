@@ -8,7 +8,7 @@ git clone https://github.com/linaro-swg/optee_examples.git
 git clone https://github.com/linaro-swg/soc_term.git
 git clone https://github.com/linaro-swg/u-boot.git
 git clone https://github.com/buildroot/buildroot.git
-git clone https://git.trustedfirmware.org/TF-A/trusted-firmware-a.git
+git clone "https://review.trustedfirmware.org/TF-A/trusted-firmware-a"
 git clone https://github.com/qemu/qemu.git
 
 

@@ -16,7 +16,7 @@ another way see to [https://optee.readthedocs.io/en/latest/building/toolchains.h
 ## build optee-os
 ```bash
 cd build
-cd builmake -f qemu.mk all
+make -f qemu.mk all
 ```
 
 ## run optee-os on qemu

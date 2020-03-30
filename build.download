@@ -1,0 +1,3 @@
+export REPO_URL='https://mirrors.tuna.tsinghua.edu.cn/git/git-repo/'
+repo init -u https://github.com/OP-TEE/manifest.git  // 默认下载 default.xml
+$ repo sync -j4 --no-clone-bundle

@@ -1,5 +1,5 @@
 ```bash
-echo "git clone finish !!!!"
+echo "git clone start ***"
 git clone https://github.com/OP-TEE/optee_client.git
 git clone https://github.com/OP-TEE/optee_os.git
 git clone https://github.com/OP-TEE/optee_test.git

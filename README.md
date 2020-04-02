@@ -27,7 +27,7 @@ make -f qemu.mk run-only
 ## some tips for download code
 * Git gnutls_handshake() failed解决办法 
 [#1](https://www.cnblogs.com/ArsenalfanInECNU/p/11327617.html)
-* Ubuntu Proxy
+* Ubuntu Proxy 
 add config to .bashrc
 ```bash
 export http_proxy='http://192.168.0.102:1087'
@@ -37,6 +37,13 @@ export no_proxy='localhost,127.0.0.1'
 ```
 * Git Proxy
 [#1](https://baijiahao.baidu.com/s?id=1603409484949165821&wfr=spider&for=pc)
+
+* Use Local Repo
+```bash
+export REPO_URL='https://mirrors.tuna.tsinghua.edu.cn/git/git-repo/'
+repo init -u https://github.com/OP-TEE/manifest.git  // 默认下载 default.xml
+repo sync -j4 --no-clone-bundle
+``
 
 
 

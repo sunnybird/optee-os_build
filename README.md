@@ -24,6 +24,8 @@ make -f qemu.mk all
 cd build
 make -f qemu.mk run-only
 ```
+## some tips for download code
+Git gnutls_handshake() failed解决办法 : [#1](https://www.cnblogs.com/ArsenalfanInECNU/p/11327617.html)
 
 
 

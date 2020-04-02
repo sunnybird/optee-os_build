@@ -1,5 +1,5 @@
 ```bash
-echo "git clone finish !!!!"
+echo "git clone start !!!!"
 git clone http://github.com/OP-TEE/optee_client
 git clone http://github.com/OP-TEE/optee_os
 git clone http://github.com/OP-TEE/optee_test
@@ -13,7 +13,7 @@ git clone http://github.com/tianocore/edk2
 git clone http://github.com/ARMmbed/mbedtls
 git clone http://github.com/qemu/qemu
 git clone http://git.trustedfirmware.org/TF-A/trusted-firmware-a
-echo "git clone finish and begin to checkout !!!"
+echo "git clone finish and start to checkout !!!"
 cd $(PWD)/linux
 git checkout 1ad01d3482219ee7fcc5a4529f8f06570878bf72
 cd $(PWD)/soc_term

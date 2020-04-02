@@ -30,11 +30,9 @@ git checkout refs/tags/v3.1.0-rc3
 cd ${PROJPATH}/trusted-firmware-a
 git checkout refs/tags/v2.2
 echo "git checkout finish !!!"
-
-
-mkdir -p $${PROJPATH}/toolchains
+echo "start to download toochains"
+mkdir -p ${PROJPATH}/toolchains
 cd ${PROJPATH}/toolchains
-
 # Download 32bit toolchain
 wget https://developer.arm.com/-/media/Files/downloads/gnu-a/8.3-2019.03/binrel/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf.tar.xz
 mkdir aarch32
@@ -44,7 +42,7 @@ tar xf gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf.tar.xz -C aarch32 --strip-
 wget https://developer.arm.com/-/media/Files/downloads/gnu-a/8.3-2019.03/binrel/gcc-arm-8.3-2019.03-x86_64-aarch64-linux-gnu.tar.xz
 mkdir aarch64
 tar xf gcc-arm-8.3-2019.03-x86_64-aarch64-linux-gnu.tar.xz -C aarch64 --strip-components=1
-
+echo "finish to download toochains"
 
 ```
 

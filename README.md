@@ -38,7 +38,6 @@ export no_proxy='localhost,127.0.0.1'
 ```
 
 * Git Proxy  
-
  [#1](https://baijiahao.baidu.com/s?id=1603409484949165821&wfr=spider&for=pc)
 
 * Use Local Repo

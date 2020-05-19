@@ -1,0 +1,25 @@
+tee_core.c
+
+static const struct file_operations tee_fops = {
+	.owner = THIS_MODULE,
+	.open = tee_open,
+	.release = tee_release,
+	.unlocked_ioctl = tee_ioctl,
+	.compat_ioctl = compat_ptr_ioctl,
+};
+
+tee_device_alloc:
+
+cdev_init(&teedev->cdev, &tee_fops);
+
+
+tee_ioctl
+tee_ioctl_open_session
+
+core.c
+optee_probe:
+teedev = tee_device_alloc(&optee_desc, NULL, pool, optee);
+teedev = tee_device_alloc(&optee_supp_desc, NULL, pool, optee);
+
+optee_driver_init:
+optee = optee_probe(np);

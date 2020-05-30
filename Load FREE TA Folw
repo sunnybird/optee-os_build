@@ -1,0 +1,17 @@
+
+Optee-os:
+
+entry_std.c#entry_open_session
+
+tee_ta_manager.c#tee_ta_open_session
+tee_ta_manager.c#tee_ta_init_session
+user_ta.c#tee_ta_init_user_ta_session
+user_ta.c#load_ldelf
+
+
+main.c#ldelf
+ta_elf.c#ta_elf_load_main
+ta_elf.c#load_main
+ta_elf.c#init_elf
+sys.c#sys_open_ta_bin
+system.c#system_open_ta_binary
